@@ -1,0 +1,29 @@
+body {
+	background-color: #BBFFBB;
+}
+
+h1 {
+	color: #129B12;
+}
+
+#titulo {
+	text-align: center;
+}
+
+.basico {
+	color: blue;
+}
+
+.intermediario {
+	color: red;
+}
+
+.avançado {
+	color: black;
+}
+
+h2 {
+	color: #46A946;
+}
+
+

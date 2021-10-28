@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu primeiro Exercicio</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>Audio</h1>
+	<p>Vamos aprender a reproduzir audio com html5</p>
+	<audio src="./som.mp3" autobuffer autoloop loop controls preload="none"></audio>
+
+	<audio preload="none" autobuffer autoloop loop controls>
+		<source src="./som.mp3" type="audio/mpeg">
+		<source src="./som.ogg" type="audio/ogg">
+		<source src="./som.wav" type="audio/wav">
+		<p>infelizmente seu navegador não suporta audio, click aqui pra baixar</p>
+
+	</audio>
+
+
+</body>
+
+</html>

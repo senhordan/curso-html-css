@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	background: gray;
+}
+
+h1 {
+	color: lightgrey;
+}
+
+h2 {
+	color: darkblue;
+}
+
+h3 {
+	color: lightgreen;
+}

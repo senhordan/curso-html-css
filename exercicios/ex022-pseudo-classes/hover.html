@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+/*
+		div > p {
+			display: none;
+		}
+
+		div:hover > p {
+			display: block;
+			color: black;
+		}*/
+
+		#hide {
+			/*display: none;*/
+		}
+
+		div:hover > #hide::after{
+			/*display: block;*/
+			/*color: blue;*/
+			content: "texto escondido";
+		}
+
+		div:hover {
+			color: red;
+		}
+		
+	</style>
+
+</head>
+<body>
+	<h1>Hover</h1>
+	<div>
+		Passe o mouse aqui
+		<p id="hide"></p>
+	</div>
+	<p>fim</p>
+</body>
+</html>
