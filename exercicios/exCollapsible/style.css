@@ -1,0 +1,44 @@
+div {
+	padding: 1em 0;
+}
+
+#container {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	margin-top: 0em;
+}
+
+#conteudo {
+	/*display: inline-block;*/
+	font-size: 0em;
+
+	transition-duration: 0.5s;
+	background: grey;
+	border-radius: 20px;
+	padding: 3em;
+	padding-top: 4em;
+	margin: auto;
+	margin-top: -3.5em;
+	width: 10px;
+	background-color: #55555550;
+
+}
+
+#titulo {
+	font-size: 2em;
+	padding: 0.1em 0.6em;
+	border: 3px solid gray;
+	background-color: gray;
+	border-radius: 50px;
+	/*width: 100px;*/
+	margin: auto;
+}
+
+/*#titulo:hover + #conteudo {
+	font-size: 1em;
+
+}*/
+
+
+
